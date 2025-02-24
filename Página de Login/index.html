@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de Login</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Faça seu login</h1>
+
+     <form class="itens">
+
+        <input type="text" placeholder="Email/Usuário" required>
+        <input class="pass" type="password" placeholder="Senha" required>
+
+        <button id="botao" 
+        onmousedown="mudarCorParaVermelho()" 
+        onmouseup="voltarCorInicial()" 
+        onmouseleave="voltarCorInicial()">Entrar</button>    
+       
+     </form>
+     <div class="blank"></div>
+     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL07PvXlXCNBMWe8r1NwrVzva3H3MXUKHR&index=3" target="_blank">esqueceu a senha?</a>
+     <img src="./images/pc.png" class="logo">
+  </div>
+
+
+
+  <script>
+    function mudarCorParaVermelho() {
+        document.getElementById("botao").style.backgroundColor = "#ce981a"; // Fica vermelho
+    }
+
+    function voltarCorInicial() {
+        document.getElementById("botao").style.backgroundColor = "#f6b61e"; // Volta para o azul
+    }
+</script>
+
+
+</body>
+</html>

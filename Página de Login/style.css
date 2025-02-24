@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+body{
+    background: linear-gradient(120deg, #c2fcd9, #7b88ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    max-width: 100%;
+}
+.container{
+    text-align: center;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-items: center;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    padding-left: 500px;
+    gap: 30px;
+    font-size: 20px;
+    color: #f6b61e;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.itens button{
+    color: white;
+    background-color: #f6b61e;
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+.itens input{
+    padding: 20px;
+    padding-right: 200px;
+    border: transparent;
+    border-bottom: 2px #f6b61e solid;
+    width: 100%;
+    font-size: 1rem;
+}
+.itens input::placeholder{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.itens .pass{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    justify-content: center;
+    display: flex;
+    position: absolute; /* A imagem ficará fora do fluxo normal */
+    top: 100px; /* Ajuste conforme necessário */
+    right: 450px; /* Ajuste conforme necessário */
+    width: 400px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+.container a{
+    text-decoration: none;
+    color: #f6b61e;
+    font-size: 15px;
+}
+.blank{
+    width: 50%;          /* O bloco branco vai ocupar a largura total do container */
+    height: 100%;         /* O bloco branco vai ocupar a altura total do container */
+    background-color: #f6b61e; /* A cor de fundo do bloco será branca */
+    opacity: 50%;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;   /* Posiciona o bloco dentro do container */
+    top: 0;               /* Posiciona o bloco no topo do container */
+    left: 0;    
+}
