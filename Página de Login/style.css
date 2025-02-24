@@ -63,10 +63,11 @@ body{
 .logo{
     justify-content: center;
     display: flex;
-    position: absolute; /* A imagem ficará fora do fluxo normal */
-    top: 100px; /* Ajuste conforme necessário */
-    right: 450px; /* Ajuste conforme necessário */
-    width: 400px; /* Ajuste o tamanho da imagem conforme necessário */
+    position: absolute; 
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.5));
+    top: 100px; 
+    right: 450px; 
+    width: 400px; 
 }
 .container a{
     text-decoration: none;
@@ -74,15 +75,15 @@ body{
     font-size: 15px;
 }
 .blank{
-    width: 50%;          /* O bloco branco vai ocupar a largura total do container */
-    height: 100%;         /* O bloco branco vai ocupar a altura total do container */
-    background-color: #f6b61e; /* A cor de fundo do bloco será branca */
+    width: 50%;         
+    height: 100%;        
+    background-color: #f6b61e; 
     opacity: 50%;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    position: absolute;   /* Posiciona o bloco dentro do container */
-    top: 0;               /* Posiciona o bloco no topo do container */
+    position: absolute;   
+    top: 0;               
     left: 0;    
 }
